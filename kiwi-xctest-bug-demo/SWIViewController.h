@@ -10,4 +10,6 @@
 
 @interface SWIViewController : UIViewController
 
+- (void)doSomeAsynchronousThing:(void(^)())completion;
+
 @end

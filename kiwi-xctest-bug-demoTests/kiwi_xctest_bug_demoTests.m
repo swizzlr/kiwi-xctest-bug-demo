@@ -6,29 +6,29 @@
 //  Copyright (c) 2014 swizzlr. All rights reserved.
 //
 
+#import <Kiwi/Kiwi.h>
 #import <XCTest/XCTest.h>
+#import "SWIViewController.h"
 
-@interface kiwi_xctest_bug_demoTests : XCTestCase
-
+@interface MyObserver : XCTestObserver
+@end
+@implementation MyObserver
 @end
 
-@implementation kiwi_xctest_bug_demoTests
+SPEC_BEGIN(MySpec)
 
-- (void)setUp
-{
-    [super setUp];
-    // Put setup code here. This method is called before the invocation of each test method in the class.
-}
+describe(@"When running Kiwi under XCTest", ^{
+    beforeEach(^{
+        NSLog(@"Before Each");
+    });
+    it(@"when running an async test it will spin the run loop and run the same node twice", ^{
+        SWIViewController * viewController = [[SWIViewController alloc] init];
+        BOOL __block done = NO;
+        [viewController doSomeAsynchronousThing:^{
+            done = YES;
+        }];
+        [[expectFutureValue(theValue(done)) shouldEventuallyBeforeTimingOutAfter(6)] beTrue];
+    });
+});
 
-- (void)tearDown
-{
-    // Put teardown code here. This method is called after the invocation of each test method in the class.
-    [super tearDown];
-}
-
-- (void)testExample
-{
-    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
-}
-
-@end
+SPEC_END
