@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF1533DD195342BE007E5203 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1533DC195342BE007E5203 /* Foundation.framework */; };
+		BF1533DF195342BE007E5203 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1533DE195342BE007E5203 /* CoreGraphics.framework */; };
+		BF1533E1195342BE007E5203 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1533E0195342BE007E5203 /* UIKit.framework */; };
+		BF1533E7195342BE007E5203 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BF1533E5195342BE007E5203 /* InfoPlist.strings */; };
+		BF1533E9195342BE007E5203 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1533E8195342BE007E5203 /* main.m */; };
+		BF1533ED195342BE007E5203 /* SWIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1533EC195342BE007E5203 /* SWIAppDelegate.m */; };
+		BF1533F0195342BE007E5203 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF1533EE195342BE007E5203 /* Main_iPhone.storyboard */; };
+		BF1533F3195342BF007E5203 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF1533F1195342BE007E5203 /* Main_iPad.storyboard */; };
+		BF1533F6195342BF007E5203 /* SWIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1533F5195342BF007E5203 /* SWIViewController.m */; };
+		BF1533F8195342BF007E5203 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF1533F7195342BF007E5203 /* Images.xcassets */; };
+		BF1533FF195342BF007E5203 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1533FE195342BF007E5203 /* XCTest.framework */; };
+		BF153400195342BF007E5203 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1533DC195342BE007E5203 /* Foundation.framework */; };
+		BF153401195342BF007E5203 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1533E0195342BE007E5203 /* UIKit.framework */; };
+		BF153409195342BF007E5203 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BF153407195342BF007E5203 /* InfoPlist.strings */; };
+		BF15340B195342BF007E5203 /* kiwi_xctest_bug_demoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF15340A195342BF007E5203 /* kiwi_xctest_bug_demoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF153402195342BF007E5203 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF1533D1195342BE007E5203 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF1533D8195342BE007E5203;
+			remoteInfo = "kiwi-xctest-bug-demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF1533D9195342BE007E5203 /* kiwi-xctest-bug-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "kiwi-xctest-bug-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF1533DC195342BE007E5203 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BF1533DE195342BE007E5203 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BF1533E0195342BE007E5203 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BF1533E4195342BE007E5203 /* kiwi-xctest-bug-demo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "kiwi-xctest-bug-demo-Info.plist"; sourceTree = "<group>"; };
+		BF1533E6195342BE007E5203 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BF1533E8195342BE007E5203 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BF1533EA195342BE007E5203 /* kiwi-xctest-bug-demo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "kiwi-xctest-bug-demo-Prefix.pch"; sourceTree = "<group>"; };
+		BF1533EB195342BE007E5203 /* SWIAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWIAppDelegate.h; sourceTree = "<group>"; };
+		BF1533EC195342BE007E5203 /* SWIAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWIAppDelegate.m; sourceTree = "<group>"; };
+		BF1533EF195342BE007E5203 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		BF1533F2195342BF007E5203 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		BF1533F4195342BF007E5203 /* SWIViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWIViewController.h; sourceTree = "<group>"; };
+		BF1533F5195342BF007E5203 /* SWIViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWIViewController.m; sourceTree = "<group>"; };
+		BF1533F7195342BF007E5203 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BF1533FD195342BF007E5203 /* kiwi-xctest-bug-demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "kiwi-xctest-bug-demoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF1533FE195342BF007E5203 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BF153406195342BF007E5203 /* kiwi-xctest-bug-demoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "kiwi-xctest-bug-demoTests-Info.plist"; sourceTree = "<group>"; };
+		BF153408195342BF007E5203 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BF15340A195342BF007E5203 /* kiwi_xctest_bug_demoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kiwi_xctest_bug_demoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF1533D6195342BE007E5203 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF1533DF195342BE007E5203 /* CoreGraphics.framework in Frameworks */,
+				BF1533E1195342BE007E5203 /* UIKit.framework in Frameworks */,
+				BF1533DD195342BE007E5203 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF1533FA195342BF007E5203 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF1533FF195342BF007E5203 /* XCTest.framework in Frameworks */,
+				BF153401195342BF007E5203 /* UIKit.framework in Frameworks */,
+				BF153400195342BF007E5203 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF1533D0195342BE007E5203 = {
+			isa = PBXGroup;
+			children = (
+				BF1533E2195342BE007E5203 /* kiwi-xctest-bug-demo */,
+				BF153404195342BF007E5203 /* kiwi-xctest-bug-demoTests */,
+				BF1533DB195342BE007E5203 /* Frameworks */,
+				BF1533DA195342BE007E5203 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF1533DA195342BE007E5203 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF1533D9195342BE007E5203 /* kiwi-xctest-bug-demo.app */,
+				BF1533FD195342BF007E5203 /* kiwi-xctest-bug-demoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF1533DB195342BE007E5203 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF1533DC195342BE007E5203 /* Foundation.framework */,
+				BF1533DE195342BE007E5203 /* CoreGraphics.framework */,
+				BF1533E0195342BE007E5203 /* UIKit.framework */,
+				BF1533FE195342BF007E5203 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF1533E2195342BE007E5203 /* kiwi-xctest-bug-demo */ = {
+			isa = PBXGroup;
+			children = (
+				BF1533EB195342BE007E5203 /* SWIAppDelegate.h */,
+				BF1533EC195342BE007E5203 /* SWIAppDelegate.m */,
+				BF1533EE195342BE007E5203 /* Main_iPhone.storyboard */,
+				BF1533F1195342BE007E5203 /* Main_iPad.storyboard */,
+				BF1533F4195342BF007E5203 /* SWIViewController.h */,
+				BF1533F5195342BF007E5203 /* SWIViewController.m */,
+				BF1533F7195342BF007E5203 /* Images.xcassets */,
+				BF1533E3195342BE007E5203 /* Supporting Files */,
+			);
+			path = "kiwi-xctest-bug-demo";
+			sourceTree = "<group>";
+		};
+		BF1533E3195342BE007E5203 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF1533E4195342BE007E5203 /* kiwi-xctest-bug-demo-Info.plist */,
+				BF1533E5195342BE007E5203 /* InfoPlist.strings */,
+				BF1533E8195342BE007E5203 /* main.m */,
+				BF1533EA195342BE007E5203 /* kiwi-xctest-bug-demo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BF153404195342BF007E5203 /* kiwi-xctest-bug-demoTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF15340A195342BF007E5203 /* kiwi_xctest_bug_demoTests.m */,
+				BF153405195342BF007E5203 /* Supporting Files */,
+			);
+			path = "kiwi-xctest-bug-demoTests";
+			sourceTree = "<group>";
+		};
+		BF153405195342BF007E5203 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF153406195342BF007E5203 /* kiwi-xctest-bug-demoTests-Info.plist */,
+				BF153407195342BF007E5203 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF1533D8195342BE007E5203 /* kiwi-xctest-bug-demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF15340E195342BF007E5203 /* Build configuration list for PBXNativeTarget "kiwi-xctest-bug-demo" */;
+			buildPhases = (
+				BF1533D5195342BE007E5203 /* Sources */,
+				BF1533D6195342BE007E5203 /* Frameworks */,
+				BF1533D7195342BE007E5203 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "kiwi-xctest-bug-demo";
+			productName = "kiwi-xctest-bug-demo";
+			productReference = BF1533D9195342BE007E5203 /* kiwi-xctest-bug-demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF1533FC195342BF007E5203 /* kiwi-xctest-bug-demoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF153411195342BF007E5203 /* Build configuration list for PBXNativeTarget "kiwi-xctest-bug-demoTests" */;
+			buildPhases = (
+				BF1533F9195342BF007E5203 /* Sources */,
+				BF1533FA195342BF007E5203 /* Frameworks */,
+				BF1533FB195342BF007E5203 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF153403195342BF007E5203 /* PBXTargetDependency */,
+			);
+			name = "kiwi-xctest-bug-demoTests";
+			productName = "kiwi-xctest-bug-demoTests";
+			productReference = BF1533FD195342BF007E5203 /* kiwi-xctest-bug-demoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF1533D1195342BE007E5203 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SWI;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = swizzlr;
+				TargetAttributes = {
+					BF1533FC195342BF007E5203 = {
+						TestTargetID = BF1533D8195342BE007E5203;
+					};
+				};
+			};
+			buildConfigurationList = BF1533D4195342BE007E5203 /* Build configuration list for PBXProject "kiwi-xctest-bug-demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF1533D0195342BE007E5203;
+			productRefGroup = BF1533DA195342BE007E5203 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF1533D8195342BE007E5203 /* kiwi-xctest-bug-demo */,
+				BF1533FC195342BF007E5203 /* kiwi-xctest-bug-demoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF1533D7195342BE007E5203 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF1533F3195342BF007E5203 /* Main_iPad.storyboard in Resources */,
+				BF1533F8195342BF007E5203 /* Images.xcassets in Resources */,
+				BF1533F0195342BE007E5203 /* Main_iPhone.storyboard in Resources */,
+				BF1533E7195342BE007E5203 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF1533FB195342BF007E5203 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF153409195342BF007E5203 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF1533D5195342BE007E5203 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF1533ED195342BE007E5203 /* SWIAppDelegate.m in Sources */,
+				BF1533E9195342BE007E5203 /* main.m in Sources */,
+				BF1533F6195342BF007E5203 /* SWIViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF1533F9195342BF007E5203 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF15340B195342BF007E5203 /* kiwi_xctest_bug_demoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF153403195342BF007E5203 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF1533D8195342BE007E5203 /* kiwi-xctest-bug-demo */;
+			targetProxy = BF153402195342BF007E5203 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BF1533E5195342BE007E5203 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF1533E6195342BE007E5203 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BF1533EE195342BE007E5203 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF1533EF195342BE007E5203 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		BF1533F1195342BE007E5203 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF1533F2195342BF007E5203 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		BF153407195342BF007E5203 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF153408195342BF007E5203 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF15340C195342BF007E5203 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF15340D195342BF007E5203 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF15340F195342BF007E5203 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "kiwi-xctest-bug-demo/kiwi-xctest-bug-demo-Prefix.pch";
+				INFOPLIST_FILE = "kiwi-xctest-bug-demo/kiwi-xctest-bug-demo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BF153410195342BF007E5203 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "kiwi-xctest-bug-demo/kiwi-xctest-bug-demo-Prefix.pch";
+				INFOPLIST_FILE = "kiwi-xctest-bug-demo/kiwi-xctest-bug-demo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BF153412195342BF007E5203 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/kiwi-xctest-bug-demo.app/kiwi-xctest-bug-demo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "kiwi-xctest-bug-demo/kiwi-xctest-bug-demo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "kiwi-xctest-bug-demoTests/kiwi-xctest-bug-demoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		BF153413195342BF007E5203 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/kiwi-xctest-bug-demo.app/kiwi-xctest-bug-demo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "kiwi-xctest-bug-demo/kiwi-xctest-bug-demo-Prefix.pch";
+				INFOPLIST_FILE = "kiwi-xctest-bug-demoTests/kiwi-xctest-bug-demoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF1533D4195342BE007E5203 /* Build configuration list for PBXProject "kiwi-xctest-bug-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF15340C195342BF007E5203 /* Debug */,
+				BF15340D195342BF007E5203 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF15340E195342BF007E5203 /* Build configuration list for PBXNativeTarget "kiwi-xctest-bug-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF15340F195342BF007E5203 /* Debug */,
+				BF153410195342BF007E5203 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BF153411195342BF007E5203 /* Build configuration list for PBXNativeTarget "kiwi-xctest-bug-demoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF153412195342BF007E5203 /* Debug */,
+				BF153413195342BF007E5203 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF1533D1195342BE007E5203 /* Project object */;
+}
